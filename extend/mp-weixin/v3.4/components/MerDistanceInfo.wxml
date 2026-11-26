@@ -1,0 +1,1 @@
+<view class="{{['distance-box','data-v-456f659a',(blur)?'blur':'']}}"><image class="store-img data-v-456f659a" src="{{info.merchant.mer_avatar}}" mode="aspectFit"></image><text class="store-name data-v-456f659a">{{info.merchant.mer_name}}</text><text class="vertical-line data-v-456f659a"></text><text class="distance data-v-456f659a">{{info.distance}}</text></view>
