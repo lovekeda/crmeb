@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "addcart-window": "/components/addcartWindow/index"
+  }
+}
