@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cart-goods": "/components/cartGoods/index",
+    "page-footer-placeholder": "/components/diyPage/pageFooterPlaceholder"
+  }
+}
