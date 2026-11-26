@@ -1,0 +1,1 @@
+<view class="diy-data-provider data-v-002c65fd" style="{{$root.s0}}"><slot name="config"></slot><scoped-slots-config tabbarConfig="{{tabbarConfig}}" class="scoped-ref" bind:__l="__l"></scoped-slots-config></view>
