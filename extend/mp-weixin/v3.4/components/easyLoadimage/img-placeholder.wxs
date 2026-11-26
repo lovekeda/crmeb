@@ -1,0 +1,43 @@
+// 使用小程序内置的 wxs 提高性能
+// 避免和逻辑层通信带来的的性能损耗
+
+function getTargetDOM(ownerInstance, selector) {
+  var dom = ownerInstance.selectComponent(selector);
+  return dom;
+}
+
+function handleImageLoaded(event, ownerInstance) {
+  event.instance.addClass("loaded");
+
+  // 隐藏占位图
+  var placeholder = getTargetDOM(ownerInstance, '.load-placeholder');
+  if (placeholder) {
+    placeholder.removeClass("waiting");
+    placeholder.removeClass("loading");
+    placeholder.addClass("hidden");
+  }
+
+  // 显示边框图
+  var borderImage = getTargetDOM(ownerInstance, '.border-image');
+  if (borderImage) {
+    borderImage.removeClass("hidden");
+    borderImage.addClass("active");
+  }
+}
+
+function handleImageError(event, ownerInstance) {
+  event.instance.addClass("error");
+
+  // 占位图显示错误状态
+  var placeholder = getTargetDOM(ownerInstance, '.load-placeholder');
+  if (placeholder) {
+    placeholder.removeClass("waiting");
+    placeholder.removeClass("loading");
+    placeholder.addClass("error");
+  }
+}
+
+module.exports = {
+  handleImageLoaded: handleImageLoaded,
+  handleImageError: handleImageError
+}
