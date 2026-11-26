@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mer-distance-info": "/components/MerDistanceInfo",
+    "activity-label-list": "/components/good/activity-label-list",
+    "easy-loadimage": "/components/easyLoadimage/easyLoadimage"
+  }
+}
