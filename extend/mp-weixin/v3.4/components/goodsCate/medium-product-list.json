@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "svip-price": "/components/svip-price",
+    "easy-loadimage": "/components/easyLoadimage/easyLoadimage"
+  }
+}
