@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "circle-selector-header": "/components/circle-selector/circle-selector-header",
+    "circle-selector-list": "/components/circle-selector/circle-selector-list",
+    "circle-selector-sidebar": "/components/circle-selector/circle-selector-sidebar",
+    "circle-hot-popup": "/components/circle-selector/circle-hot-popup"
+  }
+}
