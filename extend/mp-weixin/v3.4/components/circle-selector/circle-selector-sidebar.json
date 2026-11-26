@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "circle-selector-sidebar-corner": "/components/circle-selector/circle-selector-sidebar-corner"
+  }
+}
