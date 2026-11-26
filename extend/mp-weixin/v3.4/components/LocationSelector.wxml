@@ -1,0 +1,1 @@
+<navigator class="{{['location-toggle','data-v-bf4f040e',(isScroll)?'scroll':'']}}" hover-class="none" url="/pages/circle/select"><view class="iconfont icon-ic_location51 data-v-bf4f040e"></view><text class="address data-v-bf4f040e">{{addressInfo}}</text><view class="iconfont icon-ic_downarrow data-v-bf4f040e"></view></navigator>
