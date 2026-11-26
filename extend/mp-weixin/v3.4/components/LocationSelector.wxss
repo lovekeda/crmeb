@@ -1,0 +1,1 @@
+.location-toggle.data-v-bf4f040e{display:flex;align-items:center;background-color:initial;color:var(--location-color,#888);font-size:14px;line-height:1;margin-right:19rpx}.location-toggle.scroll.data-v-bf4f040e{color:#333}.location-toggle .address.data-v-bf4f040e{margin-left:6rpx;max-width:5em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
