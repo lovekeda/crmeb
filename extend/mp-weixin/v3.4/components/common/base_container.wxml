@@ -1,0 +1,1 @@
+<view class="{{['base-container','data-v-c9cce118',classList]}}" style="{{(cssVars)}}"><slot></slot></view>
